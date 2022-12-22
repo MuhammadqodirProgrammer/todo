@@ -44,17 +44,12 @@ buttonElEdit.textContent = "Edit"
 if(item.isCompleted){
     newInput.checked =true
     newSpan.style.textDecoration = 'line-through'
-    // console.log(item.isCompleted);
-    // let iscom =item.isCompleted
 
-    
-//  elbtngroup.children[0].children[0].innerHTML =
 
 }
 
  node.appendChild(newitem)
  elbtngroup.children[0].children[0].innerHTML =todos.length
-//  console.log(elbtngroup.children[0].children[0].innerHTML);
     })
 }
 
