@@ -22,7 +22,7 @@ elInput.value =""
         
         elList.appendChild(newitem)
         
-        newitem.setAttribute("class","list-group-item d-flex  align-items-center justify-content-between flex-grow-1 ")
+        newitem.setAttribute("class","list-group-item d-flex  align-items-center justify-content-between flex-grow-1 col-12  ")
         newSpan.setAttribute('class','flex-grow-1 mx-3')
         newInput.setAttribute('class','form-check-input m-0 js-check')
         buttonElEdit.setAttribute("class","btn btn-warning  ms-auto js-edit-btn")
